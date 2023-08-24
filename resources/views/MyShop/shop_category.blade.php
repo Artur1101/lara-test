@@ -108,7 +108,7 @@
 	<!-- Menu Mobile -->
 	<div class="menu-mobile-left-content menu-bg-white">
 		<ul>
-            @foreach($topics_array as $category)
+            @foreach($MyShop_array as $category)
 			<li><a href="#"><img src="img/icon_hot_gray.png" alt="Icon Hot Deals" /> <p>{{ $category }}</p></a></li>
             @endforeach
         </ul>
