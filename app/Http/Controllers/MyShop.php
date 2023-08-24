@@ -14,11 +14,11 @@ class MyShop extends Controller
 {
        public function categores()
     {
-        // $topics_array = [];
-        // foreach (MyShop::all() as $MyShop) {
-        //     $MyShop_array[] = $MyShop->MyShopname;
-        // }
+        $MyShop_array = [];
+        foreach (MyShop::all() as $MyShop) {
+            $MyShop_array[] = $MyShop->MyShopname;
+        }
         
-        // return view('shop_page', compact('MyShop_array'));
+        return view('shop_page', compact('MyShop_array'));
     }
 }
